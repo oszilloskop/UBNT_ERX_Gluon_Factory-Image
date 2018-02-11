@@ -49,14 +49,14 @@ Wenn ein EdgeRouter X auf Gluon umgeflasht werde soll, dann wird folgendes benö
 - Ein neuer EdgeRouter X hat die feste IP 192.168.1.1, es läuft kein DHCP auf dem Router.  
 - Der EdgeRouter X muß über den eth0-Port (WAN) mit einem PC verbunden werden.
 - Der verbundendene PC muss mit einer passenden statischen IP konfiguriert werden (z.B. 192.168.1.20).    
-- Der EdgeRouter X ist nun über https://192.168.1.1 zu erreichen.  
+- Der EdgeRouter X ist nun über https://192.168.1.1/ zu erreichen.  
 - Nach dem Login (Benutzer: "ubnt", Passwort: "ubnt") dann unten links auf 'System' klicken. 
 - Im Fenster runterscrollen und bei "Upgrade System Image" das Image `gluon-ramips-mt7621-ubnt-erx-initramfs-factory.tar` verwenden.
 - Den Anweisungen folgen (inkl. Reboot).
 - Weiter mit Phase 2
 
 ## Phase 2 -> Gluon-Sysupgrade über die Gluon-Konfigseite
-- Nach dem Booten des EdgeRouters ist die Gluon-Konfigseite per Web-Browser über http://192.168.1.1 zu ereichen.
+- Nach dem Booten des EdgeRouters ist die Gluon-Konfigseite per Web-Browser über http://192.168.1.1/ zu ereichen.
 - Der EdgeRouter X muß nun über einen der Ports eth1-4 (LAN) mit dem PC verbunden werden.
 - Den PC ggf. wieder so konfigurieren, dass er seine IP per DHCP erhält.
 - Evtl. den Browser-Cache, -Verlauf, etc. löschen. Es kann sonst zu Browser-Problemen wegen des vorherigen http**s**-Zugriffs auf 192.168.1.1 kommen.
@@ -64,7 +64,7 @@ Wenn ein EdgeRouter X auf Gluon umgeflasht werde soll, dann wird folgendes benö
 - Weiter mit Phase 3
 
 ## Phase 3 -> Einrichten der eigenen Community-Firmware
-- Nach dem Booten sollte über http://192.168.1.1 die Gluon-Konfigseite der Community-spezifischen Firmware angezeigt werden.
+- Nach dem Booten sollte über http://192.168.1.1/ die Gluon-Konfigseite der Community-spezifischen Firmware angezeigt werden.
 
 Done!
 
@@ -127,8 +127,9 @@ dd if=/tmp/vmlinux.tmp of=/dev/mtdblock4
 - Ein neuer EdgeRouter X hat die feste IP 192.168.1.1, es läuft kein DHCP auf dem Router.  
 - Der EdgeRouter X muß über den eth0-Port (WAN) mit einem PC verbunden werden.  
 - Der verbundene PC muss mit einer passenden statischen IP konfiguriert werden (z.B. 192.168.1.20).  
-- Das UBNT Web-GUI ist nach dem Booten und nach ca. 2 Minuten per Web-Browser über https://192.168.1.1 zu erreichen.  
-- Nach dem Login (Benutzer: "ubnt", Passwort: "ubnt"), dann unten links auf 'System' klicken.
+- Das UBNT Web-GUI ist nach dem Booten und nach ca. 2 Minuten per Web-Browser über https://192.168.1.1/ zu erreichen.  
+- Evtl. den Browser-Cache, -Verlauf, etc. löschen. Es kann sonst zu Browser-Problemen wegen der vorherigen http / http**s**-Zugriffe auf 192.168.1.1 kommen.
+- Nach dem Anmelden (Benutzer: "ubnt", Passwort: "ubnt") dann unten links auf 'System' klicken.
 - Den EdgeRouter X nach Belieben konfigurieren.
 
 Done!  
