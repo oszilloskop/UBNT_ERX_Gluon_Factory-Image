@@ -127,8 +127,7 @@ dd if=/tmp/vmlinux.tmp of=/dev/mtdblock4
 - Der verbundene PC muss mit einer passenden statischen IP konfiguriert werden (z.B. 192.168.1.20).  
 - Das UBNT Web-GUI ist nach dem Booten und nach ca. 2 Minuten per Web-Browser über [https://192.168.1.1/](https://192.168.1.1/) zu erreichen.  
 - Evtl. den Browser-Cache, -Verlauf, etc. löschen. Es kann sonst zu Browser-Problemen wegen der vorherigen http / http**s**-Zugriffe auf 192.168.1.1 kommen.
-- Nach dem Anmelden (Benutzer: "ubnt", Passwort: "ubnt").
-- Den EdgeRouter X nach Belieben konfigurieren.
+- Nach dem Anmelden (Benutzer: "ubnt", Passwort: "ubnt") den EdgeRouter X nach Belieben konfigurieren.
 
 Done!  
 
