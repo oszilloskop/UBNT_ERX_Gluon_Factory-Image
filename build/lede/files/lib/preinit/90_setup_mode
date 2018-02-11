@@ -1,0 +1,13 @@
+#!/bin/sh
+
+
+# Durch folgendes Umkopieren werden die Init-Scripte des Setup-Mode verwenden.
+#
+# Ist etwas murksig, aber sonst wurde keine einfache Moeglichkeit gefunden,
+# den Konfig-Modus bei diesem Initramfs-Image zu aktivieren.
+
+rm /etc/rc.d/*
+cp /lib/gluon/setup-mode/rc.d/* /etc/rc.d
+
+
+boot_hook_add preinit_main
