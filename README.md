@@ -110,6 +110,7 @@ ubiformat /dev/mtd5
 ubiattach -p /dev/mtd5
 ubimkvol /dev/ubi0 --vol_id=0 --lebs=1925 --name=troot
 mount -o sync -t ubifs ubi0:troot /mnt/
+
 cp /tmp/version.tmp /mnt/version
 cp /tmp/squashfs.tmp /mnt/squashfs.img              # <- Das kann 1-2 Minuten dauern...
 cp /tmp/squashfs.tmp.md5 /mnt/squashfs.img.md5
