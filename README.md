@@ -42,7 +42,7 @@ Wenn ein EdgeRouter X auf Gluon umgeflasht werde soll, dann wird folgendes benö
     - Für einen EdgeRouter X-SFP: [gluon-ramips-mt7621-ubnt-erx-sfp-initramfs-factory.tar](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/blob/master/gluon-ramips-mt7621-ubnt-erx-sfp-initramfs-factory.tar) 
 - Ein Community-spezifisches Gluon-Sysupgrade-Image für einen EdgeRouter X, EdgeRouter X-SFP  
 
-## Phase 1 -> Gluon-Factory über das UBNT Web-GUI
+## Phase 1 -> Generisches Gluon-Factory über das UBNT Web-GUI
 - Ein neuer EdgeRouter X hat die feste IP 192.168.1.1, es läuft kein DHCP auf dem Router.  
 - Der EdgeRouter X muß über den eth0-Port (WAN) mit einem PC verbunden werden.
 - Der verbundendene PC muss mit einer passenden statischen IP konfiguriert werden (z.B. 192.168.1.20).    
