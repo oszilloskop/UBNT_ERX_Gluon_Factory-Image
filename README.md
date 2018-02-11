@@ -1,24 +1,21 @@
-# Gluon auf UBNT EdgeRouter X, EdgeRouter X-SFP und EdgePoint R6
+# Gluon auf UBNT EdgeRouter X, EdgeRouter X-SFP
   
 Mit Hilfe dieses Projektes kann ein EdgeRouter X sehr einfach über das Web-GUI der UBNT-Stockfirmware in einen Gluon-Router umgeflasht werden.  
   
 Weiterhin wird beschrieben, wie über die Konsole ein EdgeRouter X mit einer bereits aufgespielten Gluon- oder Lede-Firmware auf die UBNT-Stockfirmware zurückgeflasht werden kann.  
   
-Die folgende Anleitung gilt für die Ubiquiti Router ER-X, ER-X-SFP und EP-R6:
+Die folgende Anleitung gilt für die Ubiquiti Router ER-X und ER-X-SFP:
   
   
-EdgeRouter X | EdgeRouter X-SFP | EdgePoint R6
-:-------------: | :-------------: | :-------------:
-![image](https://wiki.openwrt.org/_media/media/ubiquiti/ubiquiti-edgerouter-x.png?w=300&tok=cd9c12 "ER-X")  | ![image](https://wiki.openwrt.org/_media/media/ubiquiti/ubiquiti-edgerouter-x-sfp.png?w=300&tok=afa2d9 "ER-X-SFP")  | ![image](https://wiki.openwrt.org/_media/media/ubiquiti/ubiquiti_edgepoint_r6_ep-r6.png?w=149&tok=74cc15 "EP-R6")
+EdgeRouter X | EdgeRouter X-SFP
+:-------------: | :-------------:
+![image](https://wiki.openwrt.org/_media/media/ubiquiti/ubiquiti-edgerouter-x.png?w=300&tok=cd9c12 "ER-X")  | ![image](https://wiki.openwrt.org/_media/media/ubiquiti/ubiquiti-edgerouter-x-sfp.png?w=300&tok=afa2d9 "ER-X-SFP")
   
 </br>
 
 Dieses Projekt stellt generische (Community-unabhängige) Gluon-initramfs-Factory-Images bereit.  
 Es handelt sich bei den Images um eine abgespeckte Gluon-Version.  
 </br>
-
-Anmerkung:  
-Der EdgeRouter X-SFP und der EdgePoint R6 sind Firmware-technisch als identisch zu betrachten.  
 
 ---
 
@@ -44,8 +41,8 @@ Wenn ein EdgeRouter X auf Gluon umgeflasht werde soll, dann wird folgendes benö
 Daher evtl. vorher ein Update durchführen -> [Downloadlink](https://www.ubnt.com/download/edgemax/edgerouter-x)
 - Ein hier bereitgestelltes Gluon-initramfs-Factory-Image:
     - Für einen EdgeRouter X: [gluon-ramips-mt7621-ubnt-erx-initramfs-factory.tar](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/blob/master/gluon-ramips-mt7621-ubnt-erx-initramfs-factory.tar)
-    - Für einen EdgeRouter X-SFP und EdgePount R6: [gluon-ramips-mt7621-ubnt-erx-sfp-initramfs-factory.tar](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/blob/master/gluon-ramips-mt7621-ubnt-erx-sfp-initramfs-factory.tar) 
-- Ein Community-spezifisches Gluon-Sysupgrade-Image für einen EdgeRouter X, EdgeRouter X-SFP oder EdgePoint R6  
+    - Für einen EdgeRouter X-SFP: [gluon-ramips-mt7621-ubnt-erx-sfp-initramfs-factory.tar](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/blob/master/gluon-ramips-mt7621-ubnt-erx-sfp-initramfs-factory.tar) 
+- Ein Community-spezifisches Gluon-Sysupgrade-Image für einen EdgeRouter X, EdgeRouter X-SFP  
 
 ## Phase 1 -> Gluon-Factory über das UBNT Web-GUI
 - Ein neuer EdgeRouter X hat die feste IP 192.168.1.1, es läuft kein DHCP auf dem Router.  
@@ -82,8 +79,8 @@ Bei diesem Projekt fällt auch ein initramfs-Kernel ab. Der EdgeRouter X kann mi
 Wenn ein Gluon- oder Lede-EdgeRouter zurück auf die UBNT-Stockfirmware geflasht werde soll, dann wird folgendes benötigt:
 - Ein hier bereitgestelltes "Back to Stock"-initramfs-Binary
    - Für einen EdgeRouter X: [back-to-stock-ramips-mt7621-ubnt-erx-initramfs-kernel.bin](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/blob/master/back-to-stock-ramips-mt7621-ubnt-erx-initramfs-kernel.bin)
-   - Für einen EdgeRouter X-SFP und EdgePount R6: [back-to-stock-ramips-mt7621-ubnt-erx-sfp-initramfs-kernel.bin](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/blob/master/back-to-stock-ramips-mt7621-ubnt-erx-sfp-initramfs-kernel.bin) 
-- Eine original UBNT Stockfirmware für den EdgeRouter X, EdgeRouter X-SFP oder EdgePoint R6: [https://www.ubnt.com/download/edgemax/edgerouter-x](https://www.ubnt.com/download/edgemax/edgerouter-x)
+   - Für einen EdgeRouter X-SFP: [back-to-stock-ramips-mt7621-ubnt-erx-sfp-initramfs-kernel.bin](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/blob/master/back-to-stock-ramips-mt7621-ubnt-erx-sfp-initramfs-kernel.bin) 
+- Eine original UBNT Stockfirmware für den EdgeRouter X, EdgeRouter X-SFP: [https://www.ubnt.com/download/edgemax/edgerouter-x](https://www.ubnt.com/download/edgemax/edgerouter-x)
 
 ## Phase 1 -> Flashen des initramfs-Binaries
 - Das "Back to Stock"-initramfs-Binary irgendwie auf den umzuflashenden Gluon- bzw. Lede-EdgeRouter in den Ordner `/tmp` transferieren (z.B. mit "scp").
@@ -94,7 +91,7 @@ Wenn ein Gluon- oder Lede-EdgeRouter zurück auf die UBNT-Stockfirmware geflasht
     dd if=/tmp/back-to-stock-ramips-mt7621-ubnt-erx-initramfs-kernel.bin of=/dev/mtdblock3
     dd if=/tmp/back-to-stock-ramips-mt7621-ubnt-erx-initramfs-kernel.bin of=/dev/mtdblock4
     ```
-    - Bei einem EdgeRouter X-SFP oder EdgePount R6 das hier verwenden:  
+    - Bei einem EdgeRouter X-SFP das hier verwenden:  
     ```
     dd if=/tmp/back-to-stock-ramips-mt7621-ubnt-erx-sfp-initramfs-kernel.bin of=/dev/mtdblock3
     dd if=/tmp/back-to-stock-ramips-mt7621-ubnt-erx-sfp-initramfs-kernel.bin of=/dev/mtdblock4
@@ -149,4 +146,4 @@ folgt
 - [FF-Wintergerg: Die Nutzung von Ubiquiti EdgeRouter-X als Freifunk Offloader](https://www.freifunk-winterberg.net/die-nutzung-von-ubiquiti-edgerouter-x-als-freifunk-offloader)
 - [ERX, ERX-SFP System Recovery per serieller Schnittstelle und TFTP](https://community.ubnt.com/t5/EdgeMAX/ERX-ERX-SFP-System-Recovery/td-p/2056921) 
 - [Sector5D-Blog: OpenWRT on the Ubiquiti EdgeRouter X](http://sector5d.org/openwrt-on-the-ubiquiti-edgerouter-x.html)
-- [UBNT: Downloadseite der original UBNT-Stockfirmware für EdgeRouter X, EdgeRouter X-SF und EdgePoint R6](https://www.ubnt.com/download/edgemax/edgerouter-x)
+- [UBNT: Downloadseite der original UBNT-Stockfirmware für EdgeRouter X, EdgeRouter X-SF](https://www.ubnt.com/download/edgemax/edgerouter-x)
