@@ -100,7 +100,7 @@ Wenn ein Gluon- oder Lede-EdgeRouter zurück auf die UBNT-Stockfirmware geflasht
 ## Phase 2 -> Flashen der UBNT-Stockfirmware
 - Der EdgeRouter X muß über einen der Ports eth1-4 (LAN) mit dem PC verbunden werden.
 - Den PC ggf. so konfigurieren, dass er seine IP per DHCP erhält.
-- Nach dem Booten mittels '`ssh root@192.168.1.1`' auf dem EdgeRouters X einloggen.
+- Nach dem Booten mittels `'ssh root@192.168.1.1'` auf dem EdgeRouters X einloggen.
 - Die UBNT-Stockfirmware auf dem PC lokal entpacken und die Dateien `version.tmp, squashfs.tmp, squashfs.tmp.md5, und vmlinux.tmp` irgendwie auf den umzuflashenden EdgeRouter X in den Ordner `/tmp` transferieren (z.B. mit "scp").
 - **Bitte wirklich /tmp als Zielpfad verwenden. Ansonsten können die folgenden Befehlsfolgen zu einem Brick des Routers führen!**
 - Auf der Router-Konsole wird mit folgenden Befehlen die UBNT-Stockfirmware auf den EdgeRouters X geflasht:  
