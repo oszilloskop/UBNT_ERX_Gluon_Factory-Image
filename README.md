@@ -72,7 +72,7 @@ Gute Nachrichten:
 Ein EdgeRouter X mit einer bereits aufgespielten Gluon- oder Lede-Firmware läßt sich sehr einfach über die Konsole auf die original UBNT-Stockfrimware zurückflashen.  
   
   
-Bei diesem Projekt fällt auch ein initramfs-Kernel ab. Der EdgeRouter X kann mit Hilfe der folgenden Anleitung überredet werden, diesen Kernel beim Booten zu laden. Danach liegt ein Gluon-System vor, welches vollständig im RAM abläuft (der Kernel, wie auch das Filesystem). Dadurch wird der Flash-Speicher von der laufenden Firmware nicht eingebunden und die UBNT-Stockfirmware kann dort ohne Probleme abgespeichert werden. Die Prozedur ist mehrphasig.  
+Dieses Projekt basiert auf einem initramfs-Kernel. Ein Gluon/Lede EdgeRouter X kann mit Hilfe der folgenden Anleitung überredet werden, diesen initramfs-Kernel beim Booten zu laden. Danach liegt ein Gluon-System vor, welches vollständig im RAM abläuft (der Kernel, wie auch das Filesystem). Dadurch wird der Flash-Speicher von der laufenden Firmware nicht eingebunden. Somit kann dort die UBNT-Stockfirmware ohne Probleme abgelegt werden. Die Prozedur ist mehrphasig.  
   
 Wenn ein Gluon- oder Lede-EdgeRouter zurück auf die UBNT-Stockfirmware geflasht werde soll, dann wird folgendes benötigt:
 - Ein hier bereitgestelltes "Back to Stock"-initramfs-Binary
