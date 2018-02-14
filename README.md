@@ -144,4 +144,4 @@ folgt
 - [FF-Wintergerg: Die Nutzung von Ubiquiti EdgeRouter-X als Freifunk Offloader](https://www.freifunk-winterberg.net/die-nutzung-von-ubiquiti-edgerouter-x-als-freifunk-offloader)
 - [ERX, ERX-SFP System Recovery per serieller Schnittstelle und TFTP](https://community.ubnt.com/t5/EdgeMAX/ERX-ERX-SFP-System-Recovery/td-p/2056921) 
 - [Sector5D-Blog: OpenWRT on the Ubiquiti EdgeRouter X](http://sector5d.org/openwrt-on-the-ubiquiti-edgerouter-x.html)
-- [UBNT: Downloadseite der original UBNT-Stockfirmware für EdgeRouter X, EdgeRouter X-SF](https://www.ubnt.com/download/edgemax/edgerouter-x)
+- [UBNT: Downloadseite der original UBNT-Stockfirmware für EdgeRouter X und EdgeRouter X-SFP](https://www.ubnt.com/download/edgemax/edgerouter-x)
