@@ -48,7 +48,7 @@ Wenn ein EdgeRouter X auf Gluon umgeflasht werde soll, dann wird folgendes benö
 - Der verbundendene PC muss mit einer passenden statischen IP konfiguriert werden (z.B. 192.168.1.20).    
 - Der EdgeRouter X ist nun über [https://192.168.1.1/](https://192.168.1.1/) zu erreichen.  
 - Nach dem Login (Benutzer: "ubnt", Passwort: "ubnt") dann unten links auf 'System' klicken. 
-- Im Fenster runterscrollen und bei "Upgrade System Image" das Image `gluon-ramips-mt7621-ubnt-erx-initramfs-factory.tar` verwenden.
+- Im Fenster runterscrollen und bei "Upgrade System Image" das generische Image `gluon-ramips-mt7621-ubnt-erx-initramfs-factory.tar` verwenden.
 - Den Anweisungen folgen (inkl. Reboot).
 - Weiter mit Phase 2
 
@@ -72,7 +72,7 @@ Gute Nachrichten:
 Ein EdgeRouter X mit einer bereits aufgespielten Gluon- oder Lede-Firmware läßt sich sehr einfach über die Konsole auf die original UBNT-Stockfrimware zurückflashen.  
   
   
-Dieses Projekt basiert auf einem initramfs-Kernel. Ein Gluon/Lede EdgeRouter X kann mit Hilfe der folgenden Anleitung überredet werden, diesen initramfs-Kernel beim Booten zu laden. Danach liegt ein Gluon-System vor, welches vollständig im RAM abläuft (der Kernel, wie auch das Filesystem). Dadurch wird der Flash-Speicher von der laufenden Firmware nicht eingebunden. Somit kann dort die UBNT-Stockfirmware ohne Probleme abgelegt werden. Die Prozedur ist mehrphasig.  
+Dieses Projekt basiert auf einem initramfs-Kernel. Ein Gluon/Lede EdgeRouter X kann mit Hilfe der folgenden Anleitung überredet werden, diesen initramfs-Kernel beim Booten zu laden. Danach liegt ein Gluon-System vor, welches vollständig im RAM abläuft (der Kernel, wie auch das Filesystem). Dadurch wird der Flash-Speicher von der laufenden Firmware nicht eingebunden. Somit kann dort (im Flash-Speicher) die UBNT-Stockfirmware ohne Probleme abgelegt werden. Die Prozedur ist mehrphasig.  
   
 Wenn ein Gluon- oder Lede-EdgeRouter zurück auf die UBNT-Stockfirmware geflasht werde soll, dann wird folgendes benötigt:
 - Ein hier bereitgestelltes "Back to Stock"-initramfs-Binary
