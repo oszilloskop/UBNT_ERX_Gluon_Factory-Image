@@ -48,7 +48,7 @@ Wenn ein EdgeRouter X auf Gluon umgeflasht werde soll, dann wird folgendes benö
 - Der verbundendene PC muss mit einer passenden statischen IP konfiguriert werden (z.B. 192.168.1.20).    
 - Der EdgeRouter X ist nun über [https://192.168.1.1/](https://192.168.1.1/) zu erreichen.  
 - Nach dem Login (Benutzer: "ubnt", Passwort: "ubnt") dann unten links auf 'System' klicken. 
-- Im Fenster runterscrollen und bei "Upgrade System Image" eines der hier bereitgestellten generischen Gluon-initramfs-Factory Image verwenden.
+- Im Fenster runterscrollen und bei "Upgrade System Image" eines der hier bereitgestellten generischen Gluon-initramfs-Factory Images verwenden.
 - Den Anweisungen folgen (inkl. Reboot).
 - Weiter mit Phase 2
 
