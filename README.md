@@ -28,7 +28,9 @@ Folgend wird eine weitere, aber deutlich einfachere Flash-Möglichkeit beschrieb
 Die hier downloadbaren generischen Gluon-Factory-Images bieten dem Nutzer die Möglichkeit, über die Gluon-Web-Konfigseite ein Sysupgrade durchzuführen. Das komplett abgespeckte und generische Gluon-Factory-Images ist ansonsten funktionslos.  
   
 Durch das generische Gluon-Factory-Images kann über das Gluon-GUI ein Sysupgrade-Image einer beliebigen Community auf den EdgeRouter X geflasht werden. Alle Einstellungen des Community-Images werden komplett übernommen. 
-  
+</br>  
+</br> 
+
 ![](https://forum.freifunk.net/uploads/default/a3e57a464efc0bddb7994ffc51d3d29bad0f8a6b)  
 
 ---
