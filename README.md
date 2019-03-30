@@ -41,7 +41,7 @@ Wenn ein EdgeRouter X auf Gluon umgeflasht werde soll, dann wird folgendes benö
 - Ein hier bereitgestelltes generisches Gluon-initramfs-Factory-Image:
     - Für einen EdgeRouter X: [gluon-ramips-mt7621-ubnt-erx-initramfs-factory.tar](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/blob/master/gluon-ramips-mt7621-ubnt-erx-initramfs-factory.tar)
     - Für einen EdgeRouter X-SFP: [gluon-ramips-mt7621-ubnt-erx-sfp-initramfs-factory.tar](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/blob/master/gluon-ramips-mt7621-ubnt-erx-sfp-initramfs-factory.tar) 
-- Ein Community-spezifisches Gluon-Sysupgrade-Image für einen EdgeRouter X, EdgeRouter X-SFP  
+- Ein Community-spezifisches Gluon-Sysupgrade-Image für einen EdgeRouter X, EdgeRouter X-SFP. 
 
 ## Phase 1 -> Generisches Gluon-Factory über das UBNT Web-GUI flashen
 - Ein neuer EdgeRouter X hat die feste IP 192.168.1.1, es läuft kein DHCP auf dem Router.  
@@ -83,14 +83,14 @@ Wenn ein Gluon- oder Lede-EdgeRouter zurück auf die UBNT-Stockfirmware geflasht
 
 ## Phase 1 -> Flashen des initramfs-Binaries
 - Das "Back to Stock"-initramfs-Binary irgendwie auf den umzuflashenden Gluon- bzw. Lede-EdgeRouter in den Ordner `/tmp` transferieren (z.B. mit "scp").
-- Mit dem umzuflashenden Gluon- bzw. Lede-EdgeRouter per SSH verbinden.
-- Auf der Router-Konsole wird mit folgenden Befehlen das "Back to Stock"-initramfs-Binary in die Flash-Kernel-Partitionen "mtdblock3" und "mtdblock4" übertragen:  
-    - Bei einem EdgeRouter X das hier verwenden:  
+- Per SSH auf den umzuflashenden Gluon- bzw. Lede-EdgeRouter verbinden.
+- Auf der Router-Konsole wird dann das "Back to Stock"-initramfs-Binary in die Flash-Kernel-Partitionen "mtdblock3" und "mtdblock4" übertragen:  
+    - Bei einem EdgeRouter X bitte folgende Befehlsfolge verwenden:  
     ```
     dd if=/tmp/back-to-stock-ramips-mt7621-ubnt-erx-initramfs-kernel.bin of=/dev/mtdblock3
     dd if=/tmp/back-to-stock-ramips-mt7621-ubnt-erx-initramfs-kernel.bin of=/dev/mtdblock4
     ```
-    - Bei einem EdgeRouter X-SFP das hier verwenden:  
+    - Bei einem EdgeRouter X-SFP bitte folgende Befehlsfolge verwenden:  
     ```
     dd if=/tmp/back-to-stock-ramips-mt7621-ubnt-erx-sfp-initramfs-kernel.bin of=/dev/mtdblock3
     dd if=/tmp/back-to-stock-ramips-mt7621-ubnt-erx-sfp-initramfs-kernel.bin of=/dev/mtdblock4
