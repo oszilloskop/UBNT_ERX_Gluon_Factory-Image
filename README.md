@@ -30,7 +30,7 @@ Die hier downloadbaren generischen Gluon-Factory-Images bieten dem Nutzer die MÃ
 </br>  
 </br> 
 
-![](https://forum.freifunk.net/uploads/default/a3e57a464efc0bddb7994ffc51d3d29bad0f8a6b)  
+![image](https://forum.freifunk.net/uploads/default/a3e57a464efc0bddb7994ffc51d3d29bad0f8a6b)  
 
 ---
 
