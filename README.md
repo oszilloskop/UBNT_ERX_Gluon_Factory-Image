@@ -39,8 +39,8 @@ Die hier downloadbaren generischen Gluon-Factory-Images können direkt über das
 # Los geht's: Gluon auf einen EdgeRouter X flashen
 Wenn ein EdgeRouter X auf Gluon umgeflasht werde soll, dann wird folgendes benötigt:
 - Ein hier bereitgestelltes generisches Gluon-initramfs-Factory-Image:
-    - Für einen EdgeRouter X: [gluon-ramips-mt7621-ubnt-erx-initramfs-factory.tar](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/blob/master/gluon-ramips-mt7621-ubnt-erx-initramfs-factory.tar)
-    - Für einen EdgeRouter X-SFP: [gluon-ramips-mt7621-ubnt-erx-sfp-initramfs-factory.tar](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/blob/master/gluon-ramips-mt7621-ubnt-erx-sfp-initramfs-factory.tar) 
+    - Für einen EdgeRouter X: [gluon-ramips-mt7621-ubnt-erx-initramfs-factory.tar](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/raw/master/gluon-ramips-mt7621-ubnt-erx-initramfs-factory.tar)
+    - Für einen EdgeRouter X-SFP: [gluon-ramips-mt7621-ubnt-erx-sfp-initramfs-factory.tar](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/raw/master/gluon-ramips-mt7621-ubnt-erx-sfp-initramfs-factory.tar) 
 - Ein Community-spezifisches Gluon-Sysupgrade-Image für einen EdgeRouter X, EdgeRouter X-SFP. 
 
 ## Phase 1 -> Generisches Gluon-Factory über das UBNT Web-GUI flashen
@@ -77,8 +77,8 @@ Dieses Projekt basiert auf einem initramfs-Kernel. Ein Gluon/Lede EdgeRouter X k
   
 Wenn ein Gluon- oder Lede-EdgeRouter zurück auf die UBNT-Stockfirmware geflasht werde soll, dann wird folgendes benötigt:
 - Ein hier bereitgestelltes "Back to Stock"-initramfs-Binary
-   - Für einen EdgeRouter X: [back-to-stock-ramips-mt7621-ubnt-erx-initramfs-kernel.bin](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/blob/master/back-to-stock-ramips-mt7621-ubnt-erx-initramfs-kernel.bin)
-   - Für einen EdgeRouter X-SFP: [back-to-stock-ramips-mt7621-ubnt-erx-sfp-initramfs-kernel.bin](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/blob/master/back-to-stock-ramips-mt7621-ubnt-erx-sfp-initramfs-kernel.bin) 
+   - Für einen EdgeRouter X: [back-to-stock-ramips-mt7621-ubnt-erx-initramfs-kernel.bin](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/raw/master/back-to-stock-ramips-mt7621-ubnt-erx-initramfs-kernel.bin)
+   - Für einen EdgeRouter X-SFP: [back-to-stock-ramips-mt7621-ubnt-erx-sfp-initramfs-kernel.bin](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/raw/master/back-to-stock-ramips-mt7621-ubnt-erx-sfp-initramfs-kernel.bin) 
 - Eine original UBNT Stockfirmware für den EdgeRouter X, EdgeRouter X-SFP: [https://www.ubnt.com/download/edgemax/edgerouter-x](https://www.ubnt.com/download/edgemax/edgerouter-x)
 
 ## Phase 1 -> Flashen des initramfs-Binaries
