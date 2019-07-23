@@ -2,7 +2,7 @@
   
 Mit Hilfe dieses Projektes kann ein EdgeRouter X sehr einfach über das Web-GUI der UBNT-Stockfirmware in einen Gluon-Router umgeflasht werden.  
   
-Weiterhin wird beschrieben, wie über die Konsole ein EdgeRouter X mit einer bereits aufgespielten Gluon- oder Lede-Firmware auf die UBNT-Stockfirmware zurückgeflasht werden kann.  
+Weiterhin wird beschrieben, wie über die Konsole ein EdgeRouter X mit einer bereits aufgespielten Gluon- oder OpenWrt-Firmware auf die UBNT-Stockfirmware zurückgeflasht werden kann.  
   
 Die folgende Anleitung gilt für die Ubiquiti Router ER-X und ER-X-SFP:
   
@@ -70,20 +70,20 @@ Done!
 
 # Per Konsole zurück zur UBNT-Stockfirmware
 Gute Nachrichten:  
-Ein EdgeRouter X mit einer bereits aufgespielten Gluon- oder Lede-Firmware läßt sich sehr einfach über die Konsole auf die original UBNT-Stockfrimware zurückflashen.  
+Ein EdgeRouter X mit einer bereits aufgespielten Gluon- oder OpenWrt-Firmware läßt sich sehr einfach über die Konsole auf die original UBNT-Stockfrimware zurückflashen.  
   
   
-Dieses Projekt basiert auf einem initramfs-Kernel. Ein Gluon/Lede EdgeRouter X kann mit Hilfe der folgenden Anleitung überredet werden, diesen initramfs-Kernel beim Booten zu laden. Danach liegt ein Gluon-System vor, welches vollständig im RAM abläuft (der Kernel, wie auch das Filesystem). Dadurch wird der Flash-Speicher von der laufenden Firmware nicht eingebunden. Somit kann dort (im Flash-Speicher) die UBNT-Stockfirmware ohne Probleme abgelegt werden. Die Prozedur ist mehrphasig.  
+Dieses Projekt basiert auf einem initramfs-Kernel. Ein Gluon/OpenWrt EdgeRouter X kann mit Hilfe der folgenden Anleitung überredet werden, diesen initramfs-Kernel beim Booten zu laden. Danach liegt ein Gluon-System vor, welches vollständig im RAM abläuft (der Kernel, wie auch das Filesystem). Dadurch wird der Flash-Speicher von der laufenden Firmware nicht eingebunden. Somit kann dort (im Flash-Speicher) die UBNT-Stockfirmware ohne Probleme abgelegt werden. Die Prozedur ist mehrphasig.  
   
-Wenn ein Gluon- oder Lede-EdgeRouter zurück auf die UBNT-Stockfirmware geflasht werde soll, dann wird folgendes benötigt:
+Wenn ein Gluon- oder OpenWrt-EdgeRouter zurück auf die UBNT-Stockfirmware geflasht werde soll, dann wird folgendes benötigt:
 - Ein hier bereitgestelltes "Back to Stock"-initramfs-Binary
    - Für einen EdgeRouter X: [back-to-stock-ramips-mt7621-ubnt-erx-initramfs-kernel.bin](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/raw/master/back-to-stock-ramips-mt7621-ubnt-erx-initramfs-kernel.bin)
    - Für einen EdgeRouter X-SFP: [back-to-stock-ramips-mt7621-ubnt-erx-sfp-initramfs-kernel.bin](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/raw/master/back-to-stock-ramips-mt7621-ubnt-erx-sfp-initramfs-kernel.bin) 
 - Eine original UBNT Stockfirmware für den EdgeRouter X, EdgeRouter X-SFP: [https://www.ubnt.com/download/edgemax/edgerouter-x](https://www.ubnt.com/download/edgemax/edgerouter-x)
 
 ## Phase 1 -> Flashen des initramfs-Binaries
-- Das "Back to Stock"-initramfs-Binary irgendwie auf den umzuflashenden Gluon- bzw. Lede-EdgeRouter in den Ordner `/tmp` transferieren (z.B. mit "scp").
-- Per SSH auf den umzuflashenden Gluon- bzw. Lede-EdgeRouter verbinden.
+- Das "Back to Stock"-initramfs-Binary irgendwie auf den umzuflashenden Gluon- bzw. OpenWrt-EdgeRouter in den Ordner `/tmp` transferieren (z.B. mit "scp").
+- Per SSH auf den umzuflashenden Gluon- bzw. OpenWrt-EdgeRouter verbinden.
 - Auf der Router-Konsole wird dann das "Back to Stock"-initramfs-Binary in die Flash-Kernel-Partitionen "mtdblock3" und "mtdblock4" übertragen:  
     - Bei einem EdgeRouter X bitte folgende Befehlsfolge verwenden:  
     ```
