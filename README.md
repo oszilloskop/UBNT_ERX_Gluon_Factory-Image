@@ -57,7 +57,7 @@ Wenn ein EdgeRouter X auf Gluon umgeflasht werde soll, dann wird folgendes benö
 - Nach dem Booten des EdgeRouters ist die Gluon-Konfigseite per Web-Browser über [http://192.168.1.1/](http://192.168.1.1/) zu ereichen.
 - Der EdgeRouter X muß nun über einen der Ports eth1-4 (LAN) mit dem PC verbunden werden.
 - Den PC ggf. wieder so konfigurieren, dass er seine IP per DHCP erhält.
-- Evtl. den Browser-Cache, -Verlauf, etc. löschen. Es kann sonst zu Browser-Problemen wegen des vorherigen http**s**-Zugriffs auf 192.168.1.1 kommen.
+- Evtl. den Browser-Cache, -Verlauf, etc. löschen. Es kann sonst zu Browser-Problemen wegen des vorherigen http"**s**"-Zugriffs auf 192.168.1.1 kommen.
 - Nun über die Gluon-Konfigseite ein Sysupgrade mit einem Image einer beliebigen Community durchführen.
 - Weiter mit Phase 3
 
