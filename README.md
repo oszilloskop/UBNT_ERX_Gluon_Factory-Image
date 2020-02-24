@@ -1,5 +1,5 @@
 # Achtung!
-## Bitte die Images dieses Projektes "erstmal" nicht mehr verwenden.
+## Bitte die Images bzw. Verfahren dieses Projektes "erstmal" nicht mehr verwenden.
 ## Mit Gluon v2020.1 gab es einen Wechsel des NAND-Flash-Treibers für den UBNT-ERX. 
 ## Falls kaputte Flash-Speicherzellen vorhanden sind, welche bisher meist zu keinen Probleme führten, so kann nun nach einem Sysupgrade auf Gluon v2020.x das Gerät gebrickt (soft) werden!
 
