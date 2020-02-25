@@ -1,7 +1,8 @@
-# Achtung!
-## Bitte die Images bzw. Verfahren dieses Projektes "erstmal" nicht mehr verwenden.
-## Mit Gluon v2020.1 gab es einen Wechsel des NAND-Flash-Treibers für den UBNT-ERX. 
-## Falls kaputte Flash-Speicherzellen vorhanden sind, welche bisher meist zu keinen Probleme führten, so kann nun nach einem Sysupgrade auf Gluon v2020.x das Gerät gebrickt (soft) werden!
+# Achtung! Achtung!
+## Bitte die Images bzw. Verfahren dieses Projektes "erstmal" nicht mehr verwenden!
+## Mit Gluon v2020.1 gab es einen Wechsel des NAND-Flash-Handlings bei Ubiquiti EdgeRouter-X bzw. X-SFP.
+## Falls kaputte Flash-Speicherzellen vorhanden sind, welche bisher keine Probleme bereiteten, so kann ein nun Sysupgrade auf Gluon v2020.x das Gerät bricken!
+## Siehe dazu auch das Gluon-Issue #1937, https://github.com/freifunk-gluon/gluon/issues/1937
 
 
 # Gluon auf UBNT EdgeRouter X und X-SFP
