@@ -7,11 +7,8 @@ GLUON_SITE_PACKAGES := \
 
 ##################################################################################################################$
 
-# Gluon Base Release
-DEFAULT_GLUON_RELEASE := GluonFactoryImage-v2.0
-
 # Allow overriding the release number from the command line
-GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
+GLUON_RELEASE ?= "Dummy"
 
 # Languages to include.
 GLUON_LANGS ?= de en
