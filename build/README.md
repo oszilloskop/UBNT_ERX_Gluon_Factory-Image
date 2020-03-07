@@ -1,4 +1,4 @@
-# Bauanleitung für UBNT-ERX Factory-Images mit Gluon v2020.1 als Basis
+# Bauanleitung für UBNT-ERX Factory-Images mit Gluon-v2020.1 als Basis
 
 ```
 # Projekt-Release-Name
