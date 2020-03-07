@@ -46,8 +46,8 @@ Die hier downloadbaren generischen Gluon-Factory-Images können direkt über das
 # Los geht's: Gluon auf einen EdgeRouter X flashen
 Wenn ein EdgeRouter X auf Gluon umgeflasht werde soll, dann wird folgendes benötigt:
 - Ein hier bereitgestelltes generisches Gluon-initramfs-Factory-Image:
-    - Für einen EdgeRouter X: [gluon-ramips-mt7621-ubnt-erx-initramfs-factory.tar](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/raw/master/Gluon2020.1-ubnt-erx-initramfs-factory.tar)
-    - Für einen EdgeRouter X-SFP: [gluon-ramips-mt7621-ubnt-erx-sfp-initramfs-factory.tar](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/raw/master/Gluon2020.1-ubnt-erx-sfp-initramfs-factory.tar) 
+    - Für einen EdgeRouter X: [Gluon2020.1-ubnt-erx-initramfs-factory.tar](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/raw/master/Gluon2020.1-ubnt-erx-initramfs-factory.tar)
+    - Für einen EdgeRouter X-SFP: [Gluon2020.1-ubnt-erx-sfp-initramfs-factory.tar](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/raw/master/Gluon2020.1-ubnt-erx-sfp-initramfs-factory.tar) 
 - Ein Community-spezifisches Gluon-Sysupgrade-Image für einen EdgeRouter X, EdgeRouter X-SFP. 
 
 ## Phase 1 -> Generisches Gluon-Factory über das UBNT Web-GUI flashen
