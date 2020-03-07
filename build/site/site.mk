@@ -1,4 +1,5 @@
 GLUON_SITE_PACKAGES := \
+        gluon-web-admin \
         gluon-config-mode-autoupdater \
         haveged \
         -opkg \
