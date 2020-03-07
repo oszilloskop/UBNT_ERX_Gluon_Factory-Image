@@ -8,7 +8,7 @@ GLUON_SITE_PACKAGES := \
 ##################################################################################################################$
 
 # Allow overriding the release number from the command line
-GLUON_RELEASE ?= "Dummy"
+GLUON_RELEASE ?= Dummy
 
 # Languages to include.
 GLUON_LANGS ?= de en
