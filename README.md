@@ -7,7 +7,7 @@
 
 
 ## Die folgende Beschreibung setzt zwingend voraus, dass "nach" dem Aufspielen des hier angebotenem Factory-Image eine Freifunk-Firmware mit der Gluon-Version v2020.1 (oder größer) auf den ERX-Router aufgespielt wird!  
-## Wird jedoch eine Firmware auf Basis von Gluon 2019.x (oder kleiner) aufgespielt, so kann dieses zu einem Soft-Brick führen.
+## Wird jedoch eine Firmware auf Basis von Gluon v2019.x (oder kleiner) aufgespielt, so kann dieses zu einem Soft-Brick führen.
 ## Siehe dazu auch das Gluon-Issue #1937, https://github.com/freifunk-gluon/gluon/issues/1937
 
 # Gluon auf UBNT EdgeRouter X und X-SFP
