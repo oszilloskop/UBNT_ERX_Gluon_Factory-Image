@@ -1,9 +1,14 @@
 # Achtung! Achtung!
-## Bitte die Images bzw. Verfahren dieses Projektes "erstmal" nicht mehr verwenden!
 ## Mit Gluon v2020.1 gab es einen Wechsel des NAND-Flash-Handlings bei Ubiquiti EdgeRouter-X bzw. X-SFP.
 ## Falls kaputte Flash-Speicherzellen vorhanden sind, welche bisher keine Probleme bereiteten, so kann nun ein Sysupgrade auf Gluon v2020.x das Gerät bricken!
 ## Siehe dazu auch das Gluon-Issue #1937, https://github.com/freifunk-gluon/gluon/issues/1937
 
+## ---
+
+
+## Die folgende Beschreibung setzt zwingend voraus, dass "nach" dem Aufspielen des hier angebotenem Factory-Image eine Freifunk-Firmware mit der Gluon-Version v2020.1 (oder größer) auf den ERX-Router aufgespielt wird!  
+## Wird jedoch eine Firmware auf Basis von Gluon 2019.x (oder kleiner) aufgespielt, so kann dieses zu einem Soft-Brick führen.
+## Siehe dazu auch das Gluon-Issue #1937, https://github.com/freifunk-gluon/gluon/issues/1937
 
 # Gluon auf UBNT EdgeRouter X und X-SFP
   
