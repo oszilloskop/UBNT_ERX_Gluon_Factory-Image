@@ -30,7 +30,7 @@ dann bitte die folgend beschriebenen Schritte durchführen.
 
 ## Update auf Gluon v2020.1 (oder neuer) per SSH-Konsole
 ### Vorab:
-Mit der folgend beschriebenen Methode wird der EdgeRouter komplett zurückgesetzt und in den jungfräulichen Konfigmodus versetzt. Es ist also **zwingend** der physische Zugriff auf den Router notwendig!
+Mit der folgend beschriebenen Methode wird der EdgeRouter **komplett** zurückgesetzt (analog zum jungfräulichen Factory-Zustand) und in den Konfigmodus versetzt. Es ist also **zwingend** der physische Zugriff auf den Router notwendig!
 
 Was bei der folgend beschrieben Methode jedoch entfällt, ist die Anwendung von TFTP in Kombination mit einem Hardware-Zugang per serieller TTL-Schnittstelle.
 
