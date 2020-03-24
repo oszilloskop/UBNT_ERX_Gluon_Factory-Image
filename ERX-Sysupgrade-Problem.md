@@ -7,7 +7,7 @@ EdgeRouter X | EdgeRouter X-SFP
 Mit Gluon v2020.1 gab es einen Wechsel des NAND-Flash-Handlings bei Ubiquiti EdgeRouter X bzw. X-SFP.
 Falls defekte Flash-Speicherzellen vorhanden sind, welche bisher keine Probleme bereiteten, so kann ein normales Sysupgrade von Gluon 2019.x (oder älter) auf Gluon v2020.1 (oder neuer) zu einem Soft-Brick führen!
 
-Siehe dazu das Gluon-Issue #1937, [https://github.com/freifunk-gluon/gluon/issues/1937](https://github.com/freifunk-gluon/gluon/issues/1937)  
+Siehe dazu das Gluon-Issue [#1937](https://github.com/freifunk-gluon/gluon/issues/1937).  
 
 ### Es kann überprüft werden, ob ein anstehendes Sysupgrade auf Gluon v2020.1 (oder neuer) zu einem Soft-Brick führt.
 
