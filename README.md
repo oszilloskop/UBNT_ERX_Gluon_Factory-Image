@@ -8,7 +8,7 @@ Wird jedoch eine Firmware auf Basis von Gluon v2019.x (oder älter) aufgespielt,
   
 In dem Falle, dass im Nachhinein eine Freifunk-Firmware auf Basis von Gluon v2019.x (oder älter) aufgespielt werden soll, sind anstelle der weiter unten aufgeführten/verlinkten Images jene Images mit vorangeführtem "**Gluon2018.1.2**" zu verwenden!
 
-Eine übergreifender Lösungsansatz des Problems ist hier beschrieben: [Sysupgrade_ERX_auf_Gluon_v2020.1_oder_neuer.md](Sysupgrade_ERX_auf_Gluon_v2020.1_oder_neuer.md)
+Eine übergreifender Lösungsansatz des Problems ist hier beschrieben: [ERX-Sysupgrade-Problem.md](ERX-Sysupgrade-Problem.md)
 
 ---
 
