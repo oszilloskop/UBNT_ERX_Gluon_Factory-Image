@@ -53,8 +53,8 @@ Die hier downloadbaren generischen Gluon-Factory-Images können direkt über das
 # Los geht's: Gluon auf einen EdgeRouter X flashen
 Wenn ein EdgeRouter X auf Gluon umgeflasht werde soll, dann wird folgendes benötigt:
 - Ein hier bereitgestelltes generisches Gluon-initramfs-Factory-Image:
-    - Für einen EdgeRouter X: [Gluon2020.1-ubnt-erx-initramfs-factory.tar](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/raw/master/Gluon2020.1-ubnt-erx-initramfs-factory.tar)
-    - Für einen EdgeRouter X-SFP: [Gluon2020.1-ubnt-erx-sfp-initramfs-factory.tar](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/raw/master/Gluon2020.1-ubnt-erx-sfp-initramfs-factory.tar) 
+    - Für einen EdgeRouter X: [Gluon2020.1-ubnt-erx-initramfs-factory.tar](Gluon2020.1-ubnt-erx-initramfs-factory.tar)
+    - Für einen EdgeRouter X-SFP: [Gluon2020.1-ubnt-erx-sfp-initramfs-factory.tar](Gluon2020.1-ubnt-erx-sfp-initramfs-factory.tar) 
 - Ein Community-spezifisches Gluon-Sysupgrade-Image für einen EdgeRouter X, EdgeRouter X-SFP. 
 
 ## Phase 1 -> Generisches Gluon-Factory über das UBNT Web-GUI flashen
@@ -91,8 +91,8 @@ Dieses Projekt basiert auf einem initramfs-Kernel. Ein Gluon/OpenWrt EdgeRouter 
   
 Wenn ein Gluon- oder OpenWrt-EdgeRouter zurück auf die UBNT-Stockfirmware geflasht werde soll, dann wird folgendes benötigt:
 - Ein hier bereitgestelltes "Back to Stock"-initramfs-Binary
-   - Für einen EdgeRouter X: [Gluon2020.1-back-to-stock-ubnt-erx-initramfs-kernel.bin](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/raw/master/Gluon2020.1-back-to-stock-ubnt-erx-initramfs-kernel.bin)
-   - Für einen EdgeRouter X-SFP: [Gluon2020.1-back-to-stock-ubnt-erx-sfp-initramfs-kernel.bin](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/raw/master/Gluon2020.1-back-to-stock-ubnt-erx-sfp-initramfs-kernel.bin) 
+   - Für einen EdgeRouter X: [Gluon2020.1-back-to-stock-ubnt-erx-initramfs-kernel.bin](Gluon2020.1-back-to-stock-ubnt-erx-initramfs-kernel.bin)
+   - Für einen EdgeRouter X-SFP: [Gluon2020.1-back-to-stock-ubnt-erx-sfp-initramfs-kernel.bin](Gluon2020.1-back-to-stock-ubnt-erx-sfp-initramfs-kernel.bin) 
 - Eine original UBNT Stockfirmware für den EdgeRouter X, EdgeRouter X-SFP: [https://www.ubnt.com/download/edgemax/edgerouter-x](https://www.ubnt.com/download/edgemax/edgerouter-x)
 
 ## Phase 1 -> Flashen des initramfs-Binaries

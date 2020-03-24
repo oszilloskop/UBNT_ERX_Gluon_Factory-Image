@@ -7,7 +7,7 @@ EdgeRouter X | EdgeRouter X-SFP
 Mit Gluon v2020.1 gab es einen Wechsel des NAND-Flash-Handlings bei Ubiquiti EdgeRouter X bzw. X-SFP.
 Falls defekte Flash-Speicherzellen vorhanden sind, welche bisher keine Probleme bereiteten, so kann ein normales Sysupgrade auf Gluon v2020.x zu einem Soft-Brick führen!
 
-Siehe dazu auch das Gluon-Issue #1937, https://github.com/freifunk-gluon/gluon/issues/1937  
+Siehe dazu das Gluon-Issue #1937, [https://github.com/freifunk-gluon/gluon/issues/1937](https://github.com/freifunk-gluon/gluon/issues/1937)  
 
 ### Es kann überprüft werden, ob ein anstehendes Sysupgrade auf Gluon v2020.1 (oder neuer) zu einem Soft-Brick führt.
 
@@ -47,10 +47,10 @@ Die generische initramfs-Firmware stellt einen jungfräulichen Router mit Gluon 
 Die Prozedur ist mehrphasig.
 
 ## Vorbereitungen
-Wenn ein Gluon EdgeRouter auf Gluon v2020.1 (oder neuer) aktualisiert werde soll, dann wird folgendes benötigt:
+Wenn ein Gluon EdgeRouter von Gluon v2019.x (oder älter) auf Gluon v2020.1 (oder neuer) aktualisiert werde soll, dann wird folgendes benötigt:
 - Ein hier bereitgestelltes initramfs-Binary
-   - Für einen EdgeRouter X: [Gluon2020.1-back-to-stock-ubnt-erx-initramfs-kernel.bin](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/raw/master/Gluon2020.1-back-to-stock-ubnt-erx-initramfs-kernel.bin)
-   - Für einen EdgeRouter X-SFP: [Gluon2020.1-back-to-stock-ubnt-erx-sfp-initramfs-kernel.bin](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/raw/master/Gluon2020.1-back-to-stock-ubnt-erx-sfp-initramfs-kernel.bin) 
+   - Für einen EdgeRouter X: [Gluon2020.1-back-to-stock-ubnt-erx-initramfs-kernel.bin](Gluon2020.1-back-to-stock-ubnt-erx-initramfs-kernel.bin)
+   - Für einen EdgeRouter X-SFP: [Gluon2020.1-back-to-stock-ubnt-erx-sfp-initramfs-kernel.bin](Gluon2020.1-back-to-stock-ubnt-erx-sfp-initramfs-kernel.bin) 
 
 ## Phase 1 -> Flashen des generischen initramfs-Binaries
 - Das initramfs-Binary irgendwie auf den umzuflashenden Gluon-EdgeRouter in den Ordner `/tmp` transferieren (z.B. mit "scp").
