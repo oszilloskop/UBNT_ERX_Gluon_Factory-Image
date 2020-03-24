@@ -44,7 +44,7 @@ Die hier downloadbaren generischen Gluon-Factory-Images können direkt über das
 </br>  
 </br> 
 
-![image](https://forum.freifunk.net/uploads/default/a3e57a464efc0bddb7994ffc51d3d29bad0f8a6b)  
+![image](https://user-images.githubusercontent.com/1434390/77456088-0a955880-6dfb-11ea-909a-9a679f362e79.png)
 
 ---
 
