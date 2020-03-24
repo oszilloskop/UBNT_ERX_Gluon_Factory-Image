@@ -1,14 +1,16 @@
-# Achtung! Achtung!
-## Mit Gluon v2020.1 gab es einen Wechsel des NAND-Flash-Handlings bei Ubiquiti EdgeRouter-X bzw. X-SFP.
-## Falls kaputte Flash-Speicherzellen vorhanden sind, welche bisher keine Probleme bereiteten, so kann nun ein Sysupgrade auf Gluon v2020.x das Gerät bricken!
-## Siehe dazu auch das Gluon-Issue #1937, https://github.com/freifunk-gluon/gluon/issues/1937
+## Achtung! Achtung!
+**Bei einem Sysupgrade eines EdgeRouter X (X-SFP) auf Gluon v2020.1 (oder neuer) kann es zu einem Soft-Brick kommen!**  
+Mit Gluon v2020.1 gab es einen Wechsel des NAND-Flash-Handlings bei Ubiquiti EdgeRouter X (X-SFP).  
 
-## ---
+Die hier bereitgestellte Beschreibung setzt zwingend voraus, dass "**nach**" dem Aufspielen eines hier angebotenen Factory-Images, eine Freifunk-Firmware mit der Gluon-Version v2020.1 (oder neuer) auf den ERX-Router aufgespielt wird!  
+Wird jedoch eine Firmware auf Basis von Gluon v2019.x (oder älter) aufgespielt, so kann dieses zu einem **Soft-Brick** führen.  
+(Siehe Gluon-Issue [#1937](https://github.com/freifunk-gluon/gluon/issues/1937))
+  
+In dem Falle, dass im Nachhinein eine Freifunk-Firmware auf Basis von Gluon v2019.x (oder älter) aufgespielt werden soll, sind anstelle der weiter unten aufgeführten/verlinkten Images jene Images mit vorangeführtem "**Gluon2018.1.2**" zu verwenden!
 
+Eine übergreifender Lösungsansatz des Problems ist hier beschrieben: [Sysupgrade_ERX_auf_Gluon_v2020.1_oder_neuer.md](Sysupgrade_ERX_auf_Gluon_v2020.1_oder_neuer.md)
 
-## Die folgende Beschreibung setzt zwingend voraus, dass "nach" dem Aufspielen des hier angebotenem Factory-Image eine Freifunk-Firmware mit der Gluon-Version v2020.1 (oder größer) auf den ERX-Router aufgespielt wird!  
-## Wird jedoch eine Firmware auf Basis von Gluon v2019.x (oder kleiner) aufgespielt, so kann dieses zu einem Soft-Brick führen.
-## Siehe dazu auch das Gluon-Issue #1937, https://github.com/freifunk-gluon/gluon/issues/1937
+---
 
 # Gluon auf UBNT EdgeRouter X und X-SFP
   
@@ -32,7 +34,7 @@ Es handelt sich bei den Images um eine abgespeckte Gluon-Version.
 ---
 
 ## UBNT EdgeRouter X und Gluon
-Bei dem Bauen der Gluon-Firmware (aktuell 2018.2.1) fällt aus Router-technischen Gründen kein Factory-Image für den UBNT-EdgeRouter X heraus. Wenn Gluon auf einen EdgeRouter X aufgespielt werden soll, dann muss man bisher auf die [interne serielle Schnittstelle des Routers](http://sector5d.org/openwrt-on-the-ubiquiti-edgerouter-x.html) zurückgreifen, oder man muß sich mit einem [generischen Lede-Image](https://www.freifunk-winterberg.net/die-nutzung-von-ubiquiti-edgerouter-x-als-freifunk-offloader/) aushelfen. Es ist auf jeden Fall immer ein mehrphasiges Vorgehen inkl. Konsolennutzung notwendig.  
+Bei dem Bauen der Gluon-Firmware fällt aus Router-technischen Gründen kein Factory-Image für den UBNT-EdgeRouter X heraus. Wenn Gluon auf einen EdgeRouter X aufgespielt werden soll, dann muss man bisher auf die [interne serielle Schnittstelle des Routers](http://sector5d.org/openwrt-on-the-ubiquiti-edgerouter-x.html) zurückgreifen, oder man muß sich mit einem [generischen Lede-Image](https://www.freifunk-winterberg.net/die-nutzung-von-ubiquiti-edgerouter-x-als-freifunk-offloader/) aushelfen. Es ist auf jeden Fall immer ein mehrphasiges Vorgehen inkl. Konsolennutzung notwendig.  
 
 ### Neuer Lösungsansatz
 Folgend wird eine weitere, aber deutlich einfachere Flash-Möglichkeit beschrieben. Ein Community-spezifisches Gluon kann indirekt über den Weg des Web-GUI der UBNT-Stockfirmware auf einen EdgeRouter X geflasht werden. Die Prozedur ist ebenfalls mehrphasig.  
