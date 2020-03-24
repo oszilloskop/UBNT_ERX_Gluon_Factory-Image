@@ -24,8 +24,9 @@ Kommt es jedoch zu einer Ausgabe wie z.B.
 ``` 
 dann bitte die folgend beschriebenen Schritte durchführen.
 
+---
 
-## Von Gluon v2019.x (oder älter) auf Gluon v2020.1 (oder neuer) per SSH-Konsole
+# Von Gluon v2019.x (oder älter) auf Gluon v2020.1 (oder neuer) per SSH-Konsole
 ### Vorab:
 Mit der folgend beschriebenen Methode wird der EdgeRouter **komplett** zurückgesetzt (analog zum jungfräulichen Factory-Zustand) und in den Konfigmodus versetzt. Es ist also **zwingend** der physische Zugriff auf den Router notwendig!
 
