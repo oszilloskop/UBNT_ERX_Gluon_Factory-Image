@@ -9,7 +9,7 @@ Falls defekte Flash-Speicherzellen vorhanden sind, welche bisher keine Probleme 
 
 Siehe dazu das Gluon-Issue [#1937](https://github.com/freifunk-gluon/gluon/issues/1937).  
 
-### Es kann überprüft werden, ob ein anstehendes Sysupgrade auf Gluon v2020.1 (oder neuer) zu einem Soft-Brick führt.
+### Es kann sehr einfach überprüft werden, ob ein anstehendes Sysupgrade von Gluon v2019.x (oder älter) auf Gluon v2020.1 (oder neuer) zu einem Soft-Brick führt.
 
 Bitte per SSH auf den entsprechenden EdgeRouter anmelden.
 
