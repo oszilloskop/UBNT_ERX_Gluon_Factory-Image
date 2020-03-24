@@ -1,5 +1,5 @@
 ## Achtung! Achtung!
-**Bei einem Sysupgrade eines EdgeRouter X (X-SFP) auf Gluon v2020.1 (oder neuer) kann es zu einem Soft-Brick kommen!**  
+**Bei einem Sysupgrade eines EdgeRouter X (X-SFP) von Gluon v2019.x (oder älter) auf Gluon v2020.1 (oder neuer) kann es zu einem Soft-Brick kommen!**  
 Mit Gluon v2020.1 gab es einen Wechsel des NAND-Flash-Handlings bei Ubiquiti EdgeRouter X (X-SFP).  
 
 Die hier bereitgestellte Beschreibung setzt zwingend voraus, dass "**nach**" dem Aufspielen eines hier angebotenen Factory-Images, eine Freifunk-Firmware mit der Gluon-Version v2020.1 (oder neuer) auf den ERX-Router aufgespielt wird!  
