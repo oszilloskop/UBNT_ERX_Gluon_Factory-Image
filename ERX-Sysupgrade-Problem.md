@@ -1,4 +1,4 @@
-# Sysupgrade UBNT EdgeRouter X (X-SFP) von Gluon v2019.x (oder älter) auf Gluon v2020.1 (oder neuer)
+# Update UBNT EdgeRouter X (X-SFP) von Gluon v2019.x (oder älter) auf Gluon v2020.1 (oder neuer)
 
 EdgeRouter X | EdgeRouter X-SFP
 :-------------: | :-------------:
