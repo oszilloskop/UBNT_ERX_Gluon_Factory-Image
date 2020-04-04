@@ -8,7 +8,7 @@ Wird jedoch eine Community-spezifisches Firmware auf Basis von Gluon v2019.x (od
   
 In dem Falle, dass im nachhinein eine Community-spezifisches Freifunk-Firmware auf Basis von Gluon v2019.x (oder älter) aufgespielt werden soll, sind anstelle der weiter unten aufgeführten/verlinkten Images jene Images mit vorangeführtem "**Gluon2018.1.2**" zu verwenden!
 
-Eine übergreifender Lösungsansatz des Problems ist hier beschrieben: [ERX-Sysupgrade-Problem.md](ERX-Sysupgrade-Problem.md)
+**>> Eine übergreifender Lösungsansatz des NAND-Flash-Handling-Problems ist hier beschrieben: [ERX-Sysupgrade-Problem.md](ERX-Sysupgrade-Problem.md) <<**
 
 ---
 
