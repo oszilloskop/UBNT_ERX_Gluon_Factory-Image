@@ -30,13 +30,13 @@ dann bitte die folgend beschriebenen Schritte durchführen.
 ### Vorab:
 Mit der folgend beschriebenen Methode wird der EdgeRouter **komplett** zurückgesetzt (analog zum jungfräulichen Factory-Zustand) und in den Konfigmodus versetzt. Es ist also **zwingend** der physische Zugriff auf den Router notwendig!
 
-Was bei der folgend beschrieben Methode jedoch entfällt, ist die Anwendung von TFTP in Kombination mit einem Hardware-Zugang per serieller TTL-Schnittstelle.
+Was bei der folgend beschriebenen Methode jedoch entfällt, ist die Anwendung von TFTP in Kombination mit einem Hardware-Zugang per serieller TTL-Schnittstelle.
 
-Anwendung der folgend beschriebene Methode auf eigene Gefahr :)
+Anwendung der folgend beschriebenen Methode auf eigene Gefahr :)
 
 
 ## Methodenbeschreibung  
-Die Methode basiert auf einem generischem Gluon v2020.1 mit initramfs-Kernel. 
+Die Methode basiert auf einem generischen Gluon v2020.1 mit initramfs-Kernel. 
 
 Jeder Gluon EdgeRouter X (X-SFP) kann mit Hilfe der folgenden Anleitung überredet werden, diesen initramfs-Kernel beim Booten zu laden. Nach dem Booten liegt dann ein Gluon-System vor, welches vollständig im RAM abläuft (der Kernel, wie auch das Filesystem). Dadurch wird von der Firmware **kein** Filesystem aus dem Flash-Speicher eingebunden. Evtl. vorhandene defekte FLASH-Zellen haben daher keinen negativen Einfluss auf den Bootvorgang des Systems.
 
