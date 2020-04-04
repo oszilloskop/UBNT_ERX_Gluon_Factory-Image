@@ -106,7 +106,7 @@ Wenn ein Gluon- oder OpenWrt-EdgeRouter zurück auf die UBNT-Stockfirmware gefla
     ```
     - Bei einem EdgeRouter X-SFP bitte folgende Befehlsfolge verwenden:  
     ```
-    dd if=/tmp/Gluon2020.1-back-to-stock-ubnt-erx-initramfs-kernel.bin of=/dev/mtdblock3
+    dd if=/tmp/Gluon2020.1-back-to-stock-ubnt-erx-sfp-initramfs-kernel.bin of=/dev/mtdblock3
     dd if=/tmp/Gluon2020.1-back-to-stock-ubnt-erx-sfp-initramfs-kernel.bin of=/dev/mtdblock4
     ```
 - Mit `'reboot'` den EdgeRouter X neu starten.
