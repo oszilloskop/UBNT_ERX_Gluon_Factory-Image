@@ -149,7 +149,7 @@ Done!
 ---
 
 # ERX Factory-Image selberbauen
-folgt  
+Siehe [Bauanleitung](/data/README.md) zu diesem Projekt.
 
 ---
 
