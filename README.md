@@ -1,7 +1,7 @@
 ## Achtung! Achtung!
 **Bei einem Sysupgrade eines EdgeRouter X (X-SFP) von Gluon v2019.x (oder älter) auf Gluon v2020.1 (oder neuer) kann es zu einem Soft-Brick kommen!** 
 
-**>> Eine Lösungsansatz zu dem Problem ist hier beschrieben: [ERX-Sysupgrade-Problem.md](ERX-Sysupgrade-Problem.md) <<**
+** Eine Lösungsansatz zu dem Problem ist hier beschrieben: >> [ERX-Sysupgrade-Problem.md](ERX-Sysupgrade-Problem.md) <<**
 
 Mit Gluon v2020.1 gab es einen Wechsel des NAND-Flash-Handlings bei Ubiquiti EdgeRouter X (X-SFP).  
 
