@@ -5,10 +5,11 @@ Mit Gluon v2020.1 gab es einen Wechsel des NAND-Flash-Handlings bei Ubiquiti Edg
 Die hier bereitgestellte Beschreibung setzt zwingend voraus, dass "**nach**" dem Aufspielen eines hier angebotenen Factory-Images eine Community-spezifisches Freifunk-Firmware mit der Gluon-Version v2020.1 (oder neuer) auf den ERX-Router aufgespielt werden muss!  
 Wird jedoch eine Community-spezifisches Firmware auf Basis von Gluon v2019.x (oder älter) aufgespielt, so kann dieses zu einem **Soft-Brick** führen.  
 (Siehe Gluon-Issue [#1937](https://github.com/freifunk-gluon/gluon/issues/1937))
-  
-In dem Falle, dass im nachhinein eine Community-spezifisches Freifunk-Firmware auf Basis von Gluon v2019.x (oder älter) aufgespielt werden soll, sind anstelle der weiter unten aufgeführten/verlinkten Images jene Images mit vorangeführtem "**Gluon2018.1.2**" zu verwenden!
 
-**>> Eine übergreifender Lösungsansatz des NAND-Flash-Handling-Problems ist hier beschrieben: [ERX-Sysupgrade-Problem.md](ERX-Sysupgrade-Problem.md) <<**
+**>> Eine Lösungsansatz ist hier beschrieben: [ERX-Sysupgrade-Problem.md](ERX-Sysupgrade-Problem.md) <<**
+
+In dem Falle, dass im Nachhinein eine Community-spezifisches Freifunk-Firmware auf Basis von Gluon v2019.x (oder älter) aufgespielt werden soll, sind anstelle der weiter unten aufgeführten/verlinkten Images jene Images mit vorangeführtem "**Gluon2018.1.2**" zu verwenden!
+
 
 ---
 
