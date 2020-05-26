@@ -1,4 +1,4 @@
-# Update UBNT EdgeRouter X (X-SFP) von Gluon v2019.x (oder älter) auf Gluon v2020.1 (oder neuer)
+# Sysupgrade UBNT EdgeRouter X (X-SFP) von Gluon v2019.x (oder älter) auf Gluon v2020.1 (oder neuer)
 
   
 Mit Gluon v2020.1 gab es einen Wechsel des NAND-Flash-Handlings bei Ubiquiti EdgeRouter X bzw. X-SFP.  
