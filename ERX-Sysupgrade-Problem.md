@@ -70,7 +70,7 @@ Wenn ein Gluon EdgeRouter von Gluon v2019.x (oder älter) auf Gluon v2020.1 (ode
 ## Phase 2 -> Gluon-Sysupgrade über die Gluon-Konfigseite
 - Der EdgeRouter muß nun über einen der Ports eth1-4 (LAN) mit dem PC verbunden werden.
 - Nach dem Booten des EdgeRouters ist die Gluon-Konfigseite per Web-Browser über [http://192.168.1.1/](http://192.168.1.1/) zu ereichen.
-- Nun über die Gluon-Konfigseite ein Sysupgrade mit einem Gluon-Image einer beliebigen Community durchführen (Basis muß hier zwingend Gluon v2020.1 (oder neuer) sein).
+- Nun über die Gluon-Konfigseite ein Sysupgrade mit einem Gluon-Image einer beliebigen Community durchführen (**Achtung:** Basis muß hier zwingend Gluon v2020.1 (oder neuer) sein).
 - Weiter mit Phase 3
 
 ## Phase 3 -> Einrichten der eigenen Community-Firmware
