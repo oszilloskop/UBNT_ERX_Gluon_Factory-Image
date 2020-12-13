@@ -18,13 +18,14 @@ unzip master.zip
 cp UBNT_ERX_Gluon_Factory-Image-master/build/site/* .
 
 # Die Gluon-Build-Umgebung benötigt hier ein Git-Repo ...
-# ... daher wird hier ein leeres Git-Repo anlegen
+# ... daher wird hier ein leeres Git-Repo angelegt
 
 git init
 # git config --local user.email "gluon@ubnt.erx"
 # git add site.conf  site.mk
 # git commit -m "dummy"
 # git tag -a "_" -m "dummy"
+
 cd ..
 make update
 
