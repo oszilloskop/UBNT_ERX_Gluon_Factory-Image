@@ -150,7 +150,7 @@ Done!
 
 ---
 
-# ERX Factory-Image selberbauen
+# Ein ERX Gluon-initramfs-Factory-Image selberbauen
 Siehe [Bauanleitung](/build/README.md) zu diesem Projekt.
 
 ---
